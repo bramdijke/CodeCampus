@@ -14,6 +14,7 @@
   --border-radius: 10px;
   --shadow: 0 4px 12px rgba(0, 0, 0, 0.08);
   --transition: all 0.3s ease;
+  --font-poppins: 'Poppins', sans-serif;
 }
 
 * {
@@ -23,7 +24,7 @@
 }
 
 body {
-  font-family: 'Poppins', sans-serif;
+  font-family: var(--font-poppins);
   background-color: var(--bg-color);
   color: var(--text-color);
   line-height: 1.6;
